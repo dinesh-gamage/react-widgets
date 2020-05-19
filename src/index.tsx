@@ -6,7 +6,7 @@ import VisitorWidget from "./components/Visitor";
 import ParkingWidget from './components/Parking';
 import PersonalConsumption from "./components/PersonalConsumption";
 import CarbonFootPrint from './components/CarbonFootPrint';
-// import FloorWiseConsumption from "./components/FloorWiseConsumption";
+import FloorWiseConsumption from "./components/FloorWiseConsumption";
 
 // window interface
 interface IWidgetConfigs {
@@ -59,7 +59,7 @@ class Layout extends React.Component<{}, {}> {
 }
 
 // // render dom
-ReactDOM.render(
-    <Layout />,
-    document.getElementById("root")
-);
+// ReactDOM.render(
+//     <Layout />,
+//     document.getElementById("root")
+// );

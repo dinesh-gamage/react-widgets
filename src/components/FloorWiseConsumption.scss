@@ -1,0 +1,126 @@
+.floor-wise-widget {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto; //100%;
+    overflow: hidden;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    * {
+        font-family: "AvenirNext", sans-serif;
+    }
+
+    .title {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: gray;
+
+        div {
+            .calendar {
+                background-image: url(https://static.iviva.com/images/Adani_UXP/calendar_min_icon.png);
+                width: 20px;
+                height: 20px;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                display: inline-block;
+            }
+
+            .button {
+                display: inline-block;
+                font-size: 12px;
+                width: auto;
+                height: auto;
+                padding: 4px 10px;
+                border-radius: 40px;
+                margin: 0 4px;
+                color: black;
+
+                &.active {
+                    background-color: #d4fdc1;
+                }
+            }
+        }
+    }
+
+    .body {
+        width: 100%;
+        height: 90%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        // padding-top: 25px;
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 15px 0;
+
+            &.toolbar {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                div {
+                    width: auto;
+
+                    &.baseline-diff {
+                        font-size: 12px;
+                        padding: 8px 8px;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                    }
+
+                    span {
+                        display: inline-block;
+                        font-size: 12px;
+                        width: auto;
+                        height: auto;
+                        padding: 4px 10px;
+                        border-radius: 40px;
+                        margin: 0 4px;
+                        color: white;
+
+                        &:nth-child(1) {
+                            background-color: #7cc179;
+                        }
+                        &:nth-child(2) {
+                            background-color: #eb7967;
+                        }
+                    }
+                }
+            }
+
+            &.chart-container {
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                .chart {
+                    //height: 100px;
+                    width: 40%;
+                    min-height: 250px;
+                    margin: auto 5px;
+                    border: 2px solid green;
+                    border-radius: 15px;
+                    padding: 0 30px;
+                }
+            }
+        }
+    }
+}
