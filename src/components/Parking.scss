@@ -1,0 +1,119 @@
+.parking-widget {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    box-sizing: border-box;
+    
+    * {
+        font-family: "AvenirNext",sans-serif;
+    }
+
+    .title {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: gray;
+
+        div {
+            .calendar {
+                background-image: url(https://static.iviva.com/images/Adani_UXP/calendar_min_icon.png);
+                width: 20px;
+                height: 20px;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                display: inline-block;
+            }
+
+            .arrow {
+                display: inline-block;
+                background-position: center center;
+                background-repeat: no-repeat;
+                width: 20px;
+                height: 20px;
+                background-size: contain;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.445' height='23.445' viewBox='0 0 23.445 23.445'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.333;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M23.445,11.722A11.722,11.722,0,1,1,11.722,0,11.72,11.72,0,0,1,23.445,11.722ZM9.643,6.239v5.483H6.291a.568.568,0,0,0-.4.969l5.431,5.4a.562.562,0,0,0,.8,0l5.431-5.4a.567.567,0,0,0-.4-.969H13.8V6.239a.569.569,0,0,0-.567-.567H10.21A.569.569,0,0,0,9.643,6.239Z' transform='translate(23.445) rotate(90)'/%3E%3C/svg%3E");
+
+                &:nth-child(2) {
+                    transform: rotate(180deg);
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
+    .body {
+        width: 100%;
+        height: 90%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 25px;
+
+        div {
+            align-self: center;
+            margin: auto 10px;
+
+            .user {
+                background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="86.765" height="86.765" viewBox="0 0 86.765 86.765"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23e33a75;%7D%3C/style%3E%3C/defs%3E%3Cpath class="a" d="M77.469,2.25H9.3a9.3,9.3,0,0,0-9.3,9.3V79.719a9.3,9.3,0,0,0,9.3,9.3H77.469a9.3,9.3,0,0,0,9.3-9.3V11.546A9.3,9.3,0,0,0,77.469,2.25ZM46.481,58.028h-9.3v9.3a3.108,3.108,0,0,1-3.1,3.1h-6.2a3.108,3.108,0,0,1-3.1-3.1V23.941a3.108,3.108,0,0,1,3.1-3.1H46.481a18.593,18.593,0,0,1,0,37.185Zm0-24.79h-9.3v12.4h9.3a6.2,6.2,0,0,0,0-12.4Z" transform="translate(0 -2.25)"/%3E%3C/svg%3E');
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                background-size: contain;
+                display: inline-block;
+                background-position: center;
+            }
+
+            h1 {
+                font-size: 60px;
+                margin: auto;
+                text-align: center;
+                font-weight: normal;
+            }
+
+            p {
+                margin: auto;
+                text-align: center;
+            }
+        }
+
+        .bottom {
+            width: 100%;
+            font-size: 12px;
+            color: gray;
+            text-align: center;
+
+            span {
+                background-image: url(https://static.iviva.com/images/Adani_UXP/green-down-arrow.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 13px;
+                height: 13px;
+                display: inline-block;
+                margin: auto;
+            }
+        }
+        .middle {
+            width: 100%;
+            color: rgb(83, 83, 83);
+            text-align: center;
+            margin: 10px 0;
+
+            h4 {
+                margin: 10px 0;
+            }
+        }
+    }
+}
