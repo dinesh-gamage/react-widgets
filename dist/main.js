@@ -122,6 +122,24 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/MonthlyConsumption.scss":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/MonthlyConsumption.scss ***!
+  \*****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".monthly-widget {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  background-color: white;\n  box-sizing: border-box; }\n  .monthly-widget * {\n    font-family: \"AvenirNext\", sans-serif; }\n  .monthly-widget .title {\n    display: flex;\n    width: 100%;\n    height: 10%;\n    justify-content: space-between;\n    align-items: center;\n    box-sizing: border-box;\n    font-size: 20px;\n    color: gray; }\n    .monthly-widget .title div .calendar {\n      background-image: url(https://static.iviva.com/images/Adani_UXP/calendar_min_icon.png);\n      width: 20px;\n      height: 20px;\n      background-size: contain;\n      background-position: center;\n      background-repeat: no-repeat;\n      display: inline-block; }\n    .monthly-widget .title div .button {\n      display: inline-block;\n      font-size: 12px;\n      width: auto;\n      height: auto;\n      padding: 4px 10px;\n      border-radius: 40px;\n      margin: 0 4px;\n      color: black; }\n      .monthly-widget .title div .button.active {\n        background-color: #d4fdc1; }\n  .monthly-widget .body {\n    width: 100%;\n    height: 90%;\n    box-sizing: border-box;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    padding-top: 25px; }\n    .monthly-widget .body .content {\n      width: 100%;\n      display: flex;\n      flex-wrap: nowrap;\n      align-items: center;\n      justify-content: flex-start;\n      margin: 15px 0; }\n      .monthly-widget .body .content.stat {\n        border-bottom: 1px solid gray;\n        justify-content: space-between; }\n      .monthly-widget .body .content .stat-tile {\n        width: auto;\n        margin: 0 25px 0 0;\n        display: flex;\n        flex-direction: column; }\n        .monthly-widget .body .content .stat-tile .title {\n          font-size: 14px;\n          padding: 4px;\n          text-transform: uppercase; }\n        .monthly-widget .body .content .stat-tile .body {\n          width: auto;\n          display: flex;\n          flex-direction: row;\n          margin: auto 6px;\n          flex-wrap: nowrap;\n          padding: 4px; }\n          .monthly-widget .body .content .stat-tile .body .det {\n            margin-left: 15px; }\n          .monthly-widget .body .content .stat-tile .body h1,\n          .monthly-widget .body .content .stat-tile .body p {\n            width: 100%;\n            margin: 4px 0;\n            text-align: left;\n            font-size: 18px;\n            font-weight: normal; }\n          .monthly-widget .body .content .stat-tile .body p {\n            font-size: 10px; }\n          .monthly-widget .body .content .stat-tile .body.tile-2 .p p {\n            min-width: 100%;\n            padding: 8px 8px; }\n          .monthly-widget .body .content .stat-tile .body.tile-2 .p.left .lb {\n            padding: 8px 4px 8px 30px;\n            background-color: #f8b549;\n            border-radius: 10px 0px 0px 10px;\n            text-align: right; }\n          .monthly-widget .body .content .stat-tile .body.tile-2 .p.left p {\n            text-align: center; }\n          .monthly-widget .body .content .stat-tile .body.tile-2 .p.right * {\n            text-align: left; }\n          .monthly-widget .body .content .stat-tile .body.tile-2 .p.right .lb {\n            padding: 8px 30px 8px 4px;\n            background-color: #fdf3c7;\n            border-radius: 0px 10px 10px 0px; }\n          .monthly-widget .body .content .stat-tile .body.tile-3 {\n            flex-direction: column; }\n            .monthly-widget .body .content .stat-tile .body.tile-3 select {\n              background-color: #F8B549;\n              color: white;\n              padding: 12px;\n              outline: none;\n              border: none;\n              font-size: 14px;\n              border-radius: 10px; }\n            .monthly-widget .body .content .stat-tile .body.tile-3 .radio {\n              margin-top: 7px; }\n              .monthly-widget .body .content .stat-tile .body.tile-3 .radio label {\n                font-size: 9px; }\n        .monthly-widget .body .content .stat-tile .icon {\n          width: 40px;\n          height: 40px;\n          display: inline-block;\n          background-position: center center;\n          background-repeat: no-repeat;\n          border-radius: 50%;\n          background-size: 48% auto; }\n          .monthly-widget .body .content .stat-tile .icon.electrical-icon {\n            background-color: #f8b549;\n            background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.123\" height=\"20.123\" viewBox=\"0 0 20.123 20.123\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bopacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M10.117,1.928,2.571,11.989h7.546L5.086,22.051,22.693,9.474H12.632l7.546-7.546Z\" transform=\"translate(-2.571 -1.928)\"/%3E%3C/svg%3E'); }\n          .monthly-widget .body .content .stat-tile .icon.gas-icon {\n            background-color: #7ff8c5;\n            background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"26\" viewBox=\"0 0 14 26\"%3E%3Cdefs%3E%3Cstyle%3E.a,.e%7Bfill:none;%7D.a,.c%7Bstroke:%23707070;%7D.b%7Bfill:%23707070;%7D.c%7Bfill:%23fff;%7D.d%7Bstroke:none;%7D%3C/style%3E%3C/defs%3E%3Cg transform=\"translate(-1461 -841)\"%3E%3Cg class=\"a\" transform=\"translate(1461 845)\"%3E%3Crect class=\"d\" width=\"14\" height=\"20\" rx=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"13\" height=\"19\" rx=\"1.5\"/%3E%3C/g%3E%3Cpath class=\"b\" d=\"M0,0H14a0,0,0,0,1,0,0V2a2,2,0,0,1-2,2H2A2,2,0,0,1,0,2V0A0,0,0,0,1,0,0Z\" transform=\"translate(1461 863)\"/%3E%3Cg class=\"c\" transform=\"translate(1464 841)\"%3E%3Cpath class=\"d\" d=\"M1,0H7A1,1,0,0,1,8,1V2A0,0,0,0,1,8,2H0A0,0,0,0,1,0,2V1A1,1,0,0,1,1,0Z\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"7\" height=\"1\" rx=\"0.5\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1464 843)\"%3E%3Crect class=\"d\" width=\"1\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" height=\"1\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1471 843)\"%3E%3Crect class=\"d\" width=\"1\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" height=\"1\"/%3E%3C/g%3E%3Cg class=\"c\" transform=\"translate(1467 843)\"%3E%3Crect class=\"d\" width=\"2\" height=\"2\"/%3E%3Crect class=\"e\" x=\"0.5\" y=\"0.5\" width=\"1\" height=\"1\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); }\n          .monthly-widget .body .content .stat-tile .icon.water-off-icon {\n            background-color: #49ebf8;\n            background-size: 37% auto;\n            background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.12\" height=\"21.778\" viewBox=\"0 0 20.12 21.778\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bopacity:0.455;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M13.677,11.445c-.556,4.481-3.4,5.278-3.4,8.394a3.527,3.527,0,0,0,7.053,0c0-3.116-2.842-3.913-3.4-8.394a.132.132,0,0,0-.256,0Zm-6.533-9.8c-.556,4.481-3.4,5.277-3.4,8.394a3.526,3.526,0,0,0,7.052,0c0-3.116-2.842-3.913-3.4-8.394a.131.131,0,0,0-.255,0Zm13.067,0c-.556,4.481-3.4,5.278-3.4,8.394a3.526,3.526,0,0,0,7.052,0c0-3.116-2.842-3.913-3.4-8.394a.131.131,0,0,0-.255,0Z\" transform=\"translate(-3.746 -1.544)\"/%3E%3C/svg%3E'); }\n          .monthly-widget .body .content .stat-tile .icon.waste-icon {\n            background-color: #7ff8c5;\n            background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"18.022\" height=\"18.022\" viewBox=\"0 0 18.022 18.022\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.732;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M6.5,9.219a.564.564,0,0,1-.847.6l-1.434-.9L2.425,11.793a1.128,1.128,0,0,0,.955,1.724H5.21a.422.422,0,0,1,.422.422v1.408a.422.422,0,0,1-.422.422H3.383A3.381,3.381,0,0,1,.518,10.6L2.307,7.735l-1.434-.9a.564.564,0,0,1,.172-1.026l3.88-.9a.563.563,0,0,1,.675.422l.9,3.88ZM9.966,2.78l1.453,2.326L9.985,6a.564.564,0,0,0,.172,1.026l3.88.9a.563.563,0,0,0,.675-.422l.9-3.88a.564.564,0,0,0-.847-.6l-1.432.895L11.877,1.587a3.381,3.381,0,0,0-5.731,0L5.513,2.6a.422.422,0,0,0,.134.582l1.194.746a.422.422,0,0,0,.582-.134l.632-1.012A1.128,1.128,0,0,1,9.966,2.78ZM17.5,10.6l-.969-1.551a.422.422,0,0,0-.582-.134l-1.192.745a.422.422,0,0,0-.134.582l.97,1.553a1.128,1.128,0,0,1-.955,1.723H11.264V11.828a.564.564,0,0,0-.961-.4L7.487,14.245a.563.563,0,0,0,0,.8L10.3,17.857a.564.564,0,0,0,.961-.4V15.77h3.375A3.381,3.381,0,0,0,17.5,10.6Z\" transform=\"translate(0 0)\"/%3E%3C/svg%3E'); }\n      .monthly-widget .body .content.chart {\n        width: 100%;\n        height: 300px; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Parking.scss":
 /*!******************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Parking.scss ***!
@@ -1327,6 +1345,190 @@ exports.default = FloorWiseConsumption;
 
 /***/ }),
 
+/***/ "./src/components/MonthlyConsumption.scss":
+/*!************************************************!*\
+  !*** ./src/components/MonthlyConsumption.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./MonthlyConsumption.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/MonthlyConsumption.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/components/MonthlyConsumption.tsx":
+/*!***********************************************!*\
+  !*** ./src/components/MonthlyConsumption.tsx ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __webpack_require__(/*! react */ "react");
+const Recharts = __webpack_require__(/*! recharts */ "recharts");
+__webpack_require__(/*! ./MonthlyConsumption.scss */ "./src/components/MonthlyConsumption.scss");
+class CarbonFootPrint extends React.Component {
+    render() {
+        const data = [
+            {
+                name: 'Jan', HVAC: 12, Lighting: 0, PlugPoints: 23, EmergencyLightning: 0, Elevators: 17
+            },
+            {
+                name: 'Feb', HVAC: 0, Lighting: 0, PlugPoints: 25, EmergencyLightning: 20, Elevators: 18
+            },
+            {
+                name: 'Mar', HVAC: 10, Lighting: 12, PlugPoints: 0, EmergencyLightning: 28, Elevators: 0
+            },
+            {
+                name: 'Apr', HVAC: 10, Lighting: 12, PlugPoints: 0, EmergencyLightning: 28, Elevators: 0
+            },
+            {
+                name: 'May', HVAC: 0, Lighting: 0, PlugPoints: 20, EmergencyLightning: 18, Elevators: 27
+            },
+            {
+                name: 'Jun', HVAC: 0, Lighting: 0, PlugPoints: 0, EmergencyLightning: 0, Elevators: 0
+            },
+            {
+                name: 'Jul', HVAC: 0, Lighting: 0, PlugPoints: 0, EmergencyLightning: 0, Elevators: 0
+            },
+            {
+                name: 'Aug', HVAC: 0, Lighting: 0, PlugPoints: 0, EmergencyLightning: 0, Elevators: 0
+            },
+            {
+                name: 'Sep', HVAC: 0, Lighting: 0, PlugPoints: 0, EmergencyLightning: 0, Elevators: 0
+            },
+            {
+                name: 'Oct', HVAC: 0, Lighting: 0, PlugPoints: 0, EmergencyLightning: 0, Elevators: 0
+            },
+            {
+                name: 'Nov', HVAC: 0, Lighting: 0, PlugPoints: 0, EmergencyLightning: 0, Elevators: 0
+            },
+            {
+                name: 'Dec', HVAC: 0, Lighting: 0, PlugPoints: 0, EmergencyLightning: 0, Elevators: 0
+            },
+        ];
+        return (React.createElement("div", { className: 'monthly-widget' },
+            React.createElement("div", { className: "title" },
+                React.createElement("div", null,
+                    React.createElement("span", { className: "calendar" }),
+                    " Monthly Consumption"),
+                React.createElement("div", null,
+                    React.createElement("span", { className: 'button active' }, "Daily"),
+                    React.createElement("span", { className: "button" }, "Week"),
+                    React.createElement("span", { className: "button" }, "Monthly"))),
+            React.createElement("div", { className: "body" },
+                React.createElement("div", { className: "content stat" },
+                    React.createElement("div", { className: "stat-tile" },
+                        React.createElement("div", { className: "c title" }, "Electrical"),
+                        React.createElement("div", { className: "c body" },
+                            React.createElement("div", { className: "icon electrical-icon" }),
+                            React.createElement("div", { className: "det" },
+                                React.createElement("h1", null, "10 kWh "),
+                                React.createElement("p", null, "INR 10 lakhs")))),
+                    React.createElement("div", { className: "stat-tile" },
+                        React.createElement("div", { className: "c title" }, "GAS"),
+                        React.createElement("div", { className: "c body" },
+                            React.createElement("div", { className: "icon gas-icon" }),
+                            React.createElement("div", { className: "det" },
+                                React.createElement("h1", null, "10 kWh "),
+                                React.createElement("p", null, "INR 10 lakhs")))),
+                    React.createElement("div", { className: "stat-tile" },
+                        React.createElement("div", { className: "c title" }, "water"),
+                        React.createElement("div", { className: "c body" },
+                            React.createElement("div", { className: "icon water-off-icon" }),
+                            React.createElement("div", { className: "det" },
+                                React.createElement("h1", null, "2000 ltr "),
+                                React.createElement("p", null, "INR 10 lakhs")))),
+                    React.createElement("div", { className: "stat-tile" },
+                        React.createElement("div", { className: "c title" }, "waste"),
+                        React.createElement("div", { className: "c body" },
+                            React.createElement("div", { className: "icon waste-icon" }),
+                            React.createElement("div", { className: "det" },
+                                React.createElement("h1", null, "05 tonnes "),
+                                React.createElement("p", null, "INR 10 lakhs"))))),
+                React.createElement("div", { className: "content stat" },
+                    React.createElement("div", { className: "stat-tile" },
+                        React.createElement("div", { className: "c title" }, "Select a metric"),
+                        React.createElement("div", { className: "c body tile-3" },
+                            React.createElement("select", { name: "", id: "" },
+                                React.createElement("option", { value: "" }, "Electrical"),
+                                React.createElement("option", { value: "" }, "Water"),
+                                React.createElement("option", { value: "" }, "Gas"),
+                                React.createElement("option", { value: "" }, "Waste")),
+                            React.createElement("div", { className: "radio" },
+                                React.createElement("input", { type: "radio", name: "aa", id: "a", value: "Working Hours" }),
+                                React.createElement("label", { htmlFor: "a" }, " Working Hours "),
+                                React.createElement("input", { type: "radio", name: "aa", id: "b", value: "Non Working" }),
+                                React.createElement("label", { htmlFor: "b" }, " Non Working  ")))),
+                    React.createElement("div", { className: "stat-tile" },
+                        React.createElement("div", { className: "c title" }, "Feb 2020"),
+                        React.createElement("div", { className: "c body tile-2" },
+                            React.createElement("div", { className: "p left" },
+                                React.createElement("div", { className: "lb" }, "3 kWh"),
+                                React.createElement("p", null, "INR 10 lakhs")),
+                            React.createElement("div", { className: "p right" },
+                                React.createElement("div", { className: "lb" }, "5 kWh"),
+                                React.createElement("p", null, "INR 10 lakhs")))),
+                    React.createElement("div", { className: "stat-tile" },
+                        React.createElement("div", { className: "c title" }, "Jan 2020"),
+                        React.createElement("div", { className: "c body tile-2" },
+                            React.createElement("div", { className: "p left" },
+                                React.createElement("div", { className: "lb" }, "5 kWh"),
+                                React.createElement("p", null, "INR 10 lakhs")),
+                            React.createElement("div", { className: "p right" },
+                                React.createElement("div", { className: "lb" }, "3 kWh"),
+                                React.createElement("p", null, "INR 10 lakhs")))),
+                    React.createElement("div", { className: "stat-tile" },
+                        React.createElement("div", { className: "c title" }, "Dec 2019"),
+                        React.createElement("div", { className: "c body tile-2" },
+                            React.createElement("div", { className: "p left" },
+                                React.createElement("div", { className: "lb" }, "7 kWh"),
+                                React.createElement("p", null, "INR 10 lakhs")),
+                            React.createElement("div", { className: "p right" },
+                                React.createElement("div", { className: "lb" }, "3 kWh"),
+                                React.createElement("p", null, "INR 10 lakhs"))))),
+                React.createElement("div", { className: "content chart" },
+                    React.createElement(Recharts.ResponsiveContainer, null,
+                        React.createElement(Recharts.BarChart, { width: 500, height: 300, data: data, margin: {
+                                top: 20, right: 30, left: 20, bottom: 5,
+                            } },
+                            React.createElement(Recharts.CartesianGrid, { strokeDasharray: "3 3" }),
+                            React.createElement(Recharts.XAxis, { dataKey: "name" }),
+                            React.createElement(Recharts.YAxis, null),
+                            React.createElement(Recharts.Tooltip, null),
+                            React.createElement(Recharts.Legend, null),
+                            React.createElement(Recharts.Bar, { dataKey: "HVAC", stackId: "a", fill: "#433dda", width: 2 }),
+                            React.createElement(Recharts.Bar, { dataKey: "Lighting", stackId: "a", fill: "#36cc69", width: 2 }),
+                            React.createElement(Recharts.Bar, { dataKey: "PlugPoints", stackId: "a", fill: "#9c58df", width: 2 }),
+                            React.createElement(Recharts.Bar, { dataKey: "EmergencyLightning", stackId: "a", fill: "#ff9449", width: 2 }),
+                            React.createElement(Recharts.Bar, { dataKey: "Elevators", stackId: "a", fill: "#fa74b3", width: 2 })))))));
+    }
+}
+exports.default = CarbonFootPrint;
+
+
+/***/ }),
+
 /***/ "./src/components/Parking.scss":
 /*!*************************************!*\
   !*** ./src/components/Parking.scss ***!
@@ -1571,21 +1773,20 @@ const Parking_1 = __webpack_require__(/*! ./components/Parking */ "./src/compone
 const PersonalConsumption_1 = __webpack_require__(/*! ./components/PersonalConsumption */ "./src/components/PersonalConsumption.tsx");
 const CarbonFootPrint_1 = __webpack_require__(/*! ./components/CarbonFootPrint */ "./src/components/CarbonFootPrint.tsx");
 const FloorWiseConsumption_1 = __webpack_require__(/*! ./components/FloorWiseConsumption */ "./src/components/FloorWiseConsumption.tsx");
+const MonthlyConsumption_1 = __webpack_require__(/*! ./components/MonthlyConsumption */ "./src/components/MonthlyConsumption.tsx");
 window.registerWidget({ "name": "VisitorWidget", "widget": Visitor_1.default });
 window.registerWidget({ "name": "ParkingWidget", "widget": Parking_1.default });
 window.registerWidget({ "name": "PersonalConsumption", "widget": PersonalConsumption_1.default });
 window.registerWidget({ "name": "CarbonFootPrintWidget", "widget": CarbonFootPrint_1.default });
 window.registerWidget({ "name": "FloorWiseConsumptionWidget", "widget": FloorWiseConsumption_1.default });
+window.registerWidget({ "name": "MonthlyConsumption", "widget": MonthlyConsumption_1.default });
 class Layout extends React.Component {
     componentWillMount() {
     }
     render() {
         return (React.createElement(React.Fragment, null,
             React.createElement("div", { className: "content" },
-                React.createElement(Visitor_1.default, null),
-                React.createElement(Parking_1.default, null),
-                React.createElement(PersonalConsumption_1.default, null),
-                React.createElement(CarbonFootPrint_1.default, null))));
+                React.createElement(MonthlyConsumption_1.default, null))));
     }
 }
 // // render dom

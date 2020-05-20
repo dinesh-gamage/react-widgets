@@ -1,0 +1,208 @@
+.monthly-widget {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    box-sizing: border-box;
+    //border: 1px solid black;
+
+    * {
+        font-family: "AvenirNext", sans-serif;
+    }
+
+    .title {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: gray;
+
+        div {
+            .calendar {
+                background-image: url(https://static.iviva.com/images/Adani_UXP/calendar_min_icon.png);
+                width: 20px;
+                height: 20px;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                display: inline-block;
+            }
+
+            .button {
+                display: inline-block;
+                font-size: 12px;
+                width: auto;
+                height: auto;
+                padding: 4px 10px;
+                border-radius: 40px;
+                margin: 0 4px;
+                color: black;
+
+                &.active {
+                    background-color: #d4fdc1;
+                }
+            }
+        }
+    }
+
+    .body {
+        width: 100%;
+        height: 90%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 25px;
+
+        .content {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 15px 0;
+
+            &.stat {
+                border-bottom: 1px solid gray;
+                justify-content: space-between;
+            }
+
+            .stat-tile {
+                width: auto;
+                margin: 0 25px 0 0;
+                display: flex;
+                flex-direction: column;
+
+                .title {
+                    font-size: 14px;
+                    padding: 4px;
+                    text-transform: uppercase;
+                }
+
+                .body {
+                    width: auto;
+                    display: flex;
+                    flex-direction: row;
+                    margin: auto 6px;
+                    flex-wrap: nowrap;
+                    padding: 4px;
+
+                    .det {
+                        margin-left: 15px;
+                    }
+
+                    h1,
+                    p {
+                        width: 100%;
+                        margin: 4px 0;
+                        text-align: left;
+                        font-size: 18px;
+                        font-weight: normal;
+                    }
+
+                    p {
+                        font-size: 10px;
+                    }
+
+                    &.tile-2 {
+                        .p {
+                            p {
+                                min-width: 100%;
+                                padding: 8px 8px;
+                            }
+
+                            &.left {
+                                .lb {
+                                    padding: 8px 4px 8px 30px;
+                                    background-color: #f8b549;
+                                    border-radius: 10px 0px 0px 10px;
+                                    text-align: right;
+
+                                }
+
+                                p {
+                                    text-align: center;
+
+                                }
+                            }
+
+                            &.right {
+                                * {
+                                    text-align: left;
+                                }
+
+                                .lb {
+                                    padding: 8px 30px 8px 4px;
+                                    background-color: #fdf3c7;
+                                    border-radius: 0px 10px 10px 0px;
+                                }
+                            }
+                        }
+                    }
+
+                    &.tile-3 {
+                        flex-direction: column;
+
+                        select {
+                            background-color: #F8B549;
+                            color: white;
+                            padding: 12px;
+                            outline: none;
+                            border: none;
+                            font-size: 14px;
+                            border-radius: 10px;
+                        }
+
+                        .radio {
+                            margin-top: 7px;
+                            label {
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
+
+                .icon {
+                    width: 40px;
+                    height: 40px;
+                    display: inline-block;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    border-radius: 50%;
+                    background-size: 48% auto;
+
+                    &.electrical-icon {
+                        background-color: #f8b549;
+                        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20.123" height="20.123" viewBox="0 0 20.123 20.123"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bopacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class="a" d="M10.117,1.928,2.571,11.989h7.546L5.086,22.051,22.693,9.474H12.632l7.546-7.546Z" transform="translate(-2.571 -1.928)"/%3E%3C/svg%3E');
+                    }
+                    &.gas-icon {
+                        background-color: #7ff8c5;
+                        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="14" height="26" viewBox="0 0 14 26"%3E%3Cdefs%3E%3Cstyle%3E.a,.e%7Bfill:none;%7D.a,.c%7Bstroke:%23707070;%7D.b%7Bfill:%23707070;%7D.c%7Bfill:%23fff;%7D.d%7Bstroke:none;%7D%3C/style%3E%3C/defs%3E%3Cg transform="translate(-1461 -841)"%3E%3Cg class="a" transform="translate(1461 845)"%3E%3Crect class="d" width="14" height="20" rx="2"/%3E%3Crect class="e" x="0.5" y="0.5" width="13" height="19" rx="1.5"/%3E%3C/g%3E%3Cpath class="b" d="M0,0H14a0,0,0,0,1,0,0V2a2,2,0,0,1-2,2H2A2,2,0,0,1,0,2V0A0,0,0,0,1,0,0Z" transform="translate(1461 863)"/%3E%3Cg class="c" transform="translate(1464 841)"%3E%3Cpath class="d" d="M1,0H7A1,1,0,0,1,8,1V2A0,0,0,0,1,8,2H0A0,0,0,0,1,0,2V1A1,1,0,0,1,1,0Z"/%3E%3Crect class="e" x="0.5" y="0.5" width="7" height="1" rx="0.5"/%3E%3C/g%3E%3Cg class="c" transform="translate(1464 843)"%3E%3Crect class="d" width="1" height="2"/%3E%3Crect class="e" x="0.5" y="0.5" height="1"/%3E%3C/g%3E%3Cg class="c" transform="translate(1471 843)"%3E%3Crect class="d" width="1" height="2"/%3E%3Crect class="e" x="0.5" y="0.5" height="1"/%3E%3C/g%3E%3Cg class="c" transform="translate(1467 843)"%3E%3Crect class="d" width="2" height="2"/%3E%3Crect class="e" x="0.5" y="0.5" width="1" height="1"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+                    }
+                    &.water-off-icon {
+                        background-color: #49ebf8;
+                        background-size: 37% auto;
+                        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20.12" height="21.778" viewBox="0 0 20.12 21.778"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bopacity:0.455;%7D%3C/style%3E%3C/defs%3E%3Cpath class="a" d="M13.677,11.445c-.556,4.481-3.4,5.278-3.4,8.394a3.527,3.527,0,0,0,7.053,0c0-3.116-2.842-3.913-3.4-8.394a.132.132,0,0,0-.256,0Zm-6.533-9.8c-.556,4.481-3.4,5.277-3.4,8.394a3.526,3.526,0,0,0,7.052,0c0-3.116-2.842-3.913-3.4-8.394a.131.131,0,0,0-.255,0Zm13.067,0c-.556,4.481-3.4,5.278-3.4,8.394a3.526,3.526,0,0,0,7.052,0c0-3.116-2.842-3.913-3.4-8.394a.131.131,0,0,0-.255,0Z" transform="translate(-3.746 -1.544)"/%3E%3C/svg%3E');
+                    }
+                    &.waste-icon {
+                        background-color: #7ff8c5;
+                        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="18.022" height="18.022" viewBox="0 0 18.022 18.022"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.732;%7D%3C/style%3E%3C/defs%3E%3Cpath class="a" d="M6.5,9.219a.564.564,0,0,1-.847.6l-1.434-.9L2.425,11.793a1.128,1.128,0,0,0,.955,1.724H5.21a.422.422,0,0,1,.422.422v1.408a.422.422,0,0,1-.422.422H3.383A3.381,3.381,0,0,1,.518,10.6L2.307,7.735l-1.434-.9a.564.564,0,0,1,.172-1.026l3.88-.9a.563.563,0,0,1,.675.422l.9,3.88ZM9.966,2.78l1.453,2.326L9.985,6a.564.564,0,0,0,.172,1.026l3.88.9a.563.563,0,0,0,.675-.422l.9-3.88a.564.564,0,0,0-.847-.6l-1.432.895L11.877,1.587a3.381,3.381,0,0,0-5.731,0L5.513,2.6a.422.422,0,0,0,.134.582l1.194.746a.422.422,0,0,0,.582-.134l.632-1.012A1.128,1.128,0,0,1,9.966,2.78ZM17.5,10.6l-.969-1.551a.422.422,0,0,0-.582-.134l-1.192.745a.422.422,0,0,0-.134.582l.97,1.553a1.128,1.128,0,0,1-.955,1.723H11.264V11.828a.564.564,0,0,0-.961-.4L7.487,14.245a.563.563,0,0,0,0,.8L10.3,17.857a.564.564,0,0,0,.961-.4V15.77h3.375A3.381,3.381,0,0,0,17.5,10.6Z" transform="translate(0 0)"/%3E%3C/svg%3E');
+                    }
+                }
+            }
+
+            &.chart {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+}

@@ -7,6 +7,7 @@ import ParkingWidget from './components/Parking';
 import PersonalConsumption from "./components/PersonalConsumption";
 import CarbonFootPrint from './components/CarbonFootPrint';
 import FloorWiseConsumption from "./components/FloorWiseConsumption";
+import MonthlyConsumption from './components/MonthlyConsumption';
 
 // window interface
 interface IWidgetConfigs {
@@ -37,6 +38,8 @@ window.registerWidget({ "name":"ParkingWidget", "widget": ParkingWidget });
 window.registerWidget({ "name":"PersonalConsumption", "widget": PersonalConsumption });
 window.registerWidget({ "name":"CarbonFootPrintWidget", "widget": CarbonFootPrint });
 window.registerWidget({ "name":"FloorWiseConsumptionWidget", "widget": FloorWiseConsumption });
+window.registerWidget({ "name":"MonthlyConsumption", "widget": MonthlyConsumption });
+
 
 class Layout extends React.Component<{}, {}> {
 
@@ -48,11 +51,12 @@ class Layout extends React.Component<{}, {}> {
 
         return (<>
             <div className="content">
-                {/* <FloorWiseConsumption /> */}
+                <MonthlyConsumption />
+                {/* <FloorWiseConsumption />
                 <VisitorWidget />
                 <ParkingWidget />
                 <PersonalConsumption />
-                <CarbonFootPrint />
+                <CarbonFootPrint /> */}
             </div>
         </>);
     }
