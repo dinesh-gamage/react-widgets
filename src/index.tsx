@@ -8,6 +8,7 @@ import PersonalConsumption from "./components/PersonalConsumption";
 import CarbonFootPrint from './components/CarbonFootPrint';
 import FloorWiseConsumption from "./components/FloorWiseConsumption";
 import MonthlyConsumption from './components/MonthlyConsumption';
+import ChartJsWidget from "./components/ChartJs";
 
 // window interface
 interface IWidgetConfigs {
@@ -51,8 +52,11 @@ class Layout extends React.Component<{}, {}> {
 
         return (<>
             <div className="content">
-                <MonthlyConsumption />
-                {/* <FloorWiseConsumption />
+            <FloorWiseConsumption />
+
+{/* <ChartJsWidget /> */}
+                {/* <MonthlyConsumption /> */}
+                {/* 
                 <VisitorWidget />
                 <ParkingWidget />
                 <PersonalConsumption />

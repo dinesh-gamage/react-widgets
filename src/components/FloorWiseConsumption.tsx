@@ -1,6 +1,6 @@
 import * as React from 'react';
-import * as Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
+import { Line, Bar } from 'react-chartjs-2';
+
 
 import "./FloorWiseConsumption.scss";
 
@@ -8,38 +8,30 @@ class FloorWiseConsumption extends React.Component<{}, {}> {
 
     render() {
 
-        const options = {
-            title: {
-                text: 'My chart'
-            },
-            xAxis: {
-                categories: [
-                    'Jan',
-                    'Feb',
-                    'Mar',
-                    'Apr',
-                    'May',
-                    'Jun',
-                    'Jul',
-                    'Aug',
-                    'Sep',
-                    'Oct',
-                    'Nov',
-                    'Dec'
-                ],
-                crosshair: true
-            },
-            yAxis: {
-                title: {
-                    text: 'Values'
-                }
-            },
-            series: [{
-                type: "column",
-                data: [10, 7, -9, 10, -12, -5, 7, -4, -7, 7, -9, 5]
 
-            }]
-        }
+        const data2 = {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            datasets: [
+                {
+                    label: 'Min',
+                    backgroundColor: '#7cc17a',
+                    borderColor: '#7cc17a',
+                    borderWidth: 1,
+                    hoverBackgroundColor: '#7cc17a',
+                    hoverBorderColor: '#7cc17a',
+                    data: [8, 0, -9, 0, -12, -5, 0, -4, -7, 0, -9, 0]
+                }, {
+                    label: 'Max',
+                    backgroundColor: '#f25b5b',
+                    borderColor: '#f25b5b',
+                    borderWidth: 1,
+                    hoverBackgroundColor: '#f25b5b',
+                    hoverBorderColor: '#f25b5b',
+                    data: [0, 7, 0, 10, 0, 0, 7, 0, 0, 7, 0, 5]
+                }
+            ]
+        };
+
 
 
 
@@ -64,15 +56,19 @@ class FloorWiseConsumption extends React.Component<{}, {}> {
 
                     <div className="chart-container">
                         <div className="chart chart-01">
-                            <HighchartsReact
-                                highcharts={Highcharts}
-                                options={options}
+                            <Bar
+                                data={data2}
+                                options={{
+                                    maintainAspectRatio: false
+                                }}
                             />
                         </div>
                         <div className="chart chart-02">
-                            <HighchartsReact
-                                highcharts={Highcharts}
-                                options={options}
+                            <Bar
+                                data={data2}
+                                options={{
+                                    maintainAspectRatio: false
+                                }}
                             />
                         </div>
                     </div>
