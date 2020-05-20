@@ -36,7 +36,7 @@ window.registerWidget({ "name":"VisitorWidget", "widget": VisitorWidget });
 window.registerWidget({ "name":"ParkingWidget", "widget": ParkingWidget });
 window.registerWidget({ "name":"PersonalConsumption", "widget": PersonalConsumption });
 window.registerWidget({ "name":"CarbonFootPrintWidget", "widget": CarbonFootPrint });
-// window.registerWidget({ "name":"FloorWiseConsumptionWidget", "widget": FloorWiseConsumption });
+window.registerWidget({ "name":"FloorWiseConsumptionWidget", "widget": FloorWiseConsumption });
 
 class Layout extends React.Component<{}, {}> {
 
