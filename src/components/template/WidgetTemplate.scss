@@ -1,0 +1,42 @@
+@import "./mixing_variables.scss";
+
+// classes
+.flex-row {
+    @include flex();
+    @include row();   
+}
+
+.flex-row-center {
+    @include flex();
+    @include row();
+    @include align-center();
+    @include justify-center();
+}
+
+.flex-row-start-center {
+    @include flex();
+    @include row();
+    @include align-start();
+    @include justify-center();
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+
+.widget-block {
+    // background-color: lightgray;
+    // border: 1px solid black;
+    width: auto;
+    height: auto;
+
+    .wb-header {
+        width: 100%;
+        height: auto;
+    }
+}
