@@ -16384,7 +16384,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".flex-row {\n  display: flex;\n  flex-direction: row; }\n\n.flex-row-center {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center; }\n\n.flex-row-start-center {\n  display: flex;\n  flex-direction: row;\n  align-items: flex-start;\n  justify-content: center; }\n\n.flex-wrap {\n  flex-wrap: wrap; }\n\n.flex-no-wrap {\n  flex-wrap: nowrap; }\n\n.widget-block {\n  width: auto;\n  height: auto; }\n  .widget-block .wb-header {\n    width: 100%;\n    height: auto; }\n", ""]);
+exports.push([module.i, ".flex-row {\n  display: flex;\n  flex-direction: row; }\n\n.flex-row-center {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center; }\n\n.flex-row-start-center {\n  display: flex;\n  flex-direction: row;\n  align-items: flex-start;\n  justify-content: center; }\n\n.flex-wrap {\n  flex-wrap: wrap; }\n\n.flex-no-wrap {\n  flex-wrap: nowrap; }\n\n.widget-block {\n  width: 100%;\n  height: 100%; }\n  .widget-block .wb-header {\n    width: 100%;\n    height: auto; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -45022,48 +45022,6 @@ exports.default = CreateRequest;
 
 /***/ }),
 
-/***/ "./src/components/navigation_widgets/DeskBooking.tsx":
-/*!***********************************************************!*\
-  !*** ./src/components/navigation_widgets/DeskBooking.tsx ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const React = __webpack_require__(/*! react */ "react");
-const LinkWidgetTemplate_1 = __webpack_require__(/*! ../template/LinkWidgetTemplate */ "./src/components/template/LinkWidgetTemplate.tsx");
-function DeskBooking(props) {
-    return (React.createElement(React.Fragment, null,
-        React.createElement(LinkWidgetTemplate_1.default, { linkTitle: 'Book a Desk', link: "#", imageSrc: "https://static.iviva.com/images/Adani_UXP/condeco.png" })));
-}
-exports.default = DeskBooking;
-
-
-/***/ }),
-
-/***/ "./src/components/navigation_widgets/Facility.tsx":
-/*!********************************************************!*\
-  !*** ./src/components/navigation_widgets/Facility.tsx ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const React = __webpack_require__(/*! react */ "react");
-const LinkWidgetTemplate_1 = __webpack_require__(/*! ../template/LinkWidgetTemplate */ "./src/components/template/LinkWidgetTemplate.tsx");
-function FacilityBooking(props) {
-    return (React.createElement(React.Fragment, null,
-        React.createElement(LinkWidgetTemplate_1.default, { linkTitle: 'Facility Booking', link: "#", imageSrc: "https://static.iviva.com/images/Adani_UXP/e-fecility.svg" })));
-}
-exports.default = FacilityBooking;
-
-
-/***/ }),
-
 /***/ "./src/components/navigation_widgets/MeetingRoom.tsx":
 /*!***********************************************************!*\
   !*** ./src/components/navigation_widgets/MeetingRoom.tsx ***!
@@ -45081,69 +45039,6 @@ function MeetingRoom(props) {
         React.createElement(LinkWidgetTemplate_1.default, { linkTitle: 'Meeting Room Booking', link: "#", imageSrc: "https://static.iviva.com/images/Adani_UXP/condeco.png" })));
 }
 exports.default = MeetingRoom;
-
-
-/***/ }),
-
-/***/ "./src/components/navigation_widgets/QRBadge.tsx":
-/*!*******************************************************!*\
-  !*** ./src/components/navigation_widgets/QRBadge.tsx ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const React = __webpack_require__(/*! react */ "react");
-const LinkWidgetTemplate_1 = __webpack_require__(/*! ../template/LinkWidgetTemplate */ "./src/components/template/LinkWidgetTemplate.tsx");
-function QRBadge(props) {
-    return (React.createElement(React.Fragment, null,
-        React.createElement(LinkWidgetTemplate_1.default, { linkTitle: 'My QR Badge', link: "#", imageSrc: "https://static.iviva.com/images/Adani_UXP/QR_badge_icon.svg" })));
-}
-exports.default = QRBadge;
-
-
-/***/ }),
-
-/***/ "./src/components/navigation_widgets/RegisterVisitor.tsx":
-/*!***************************************************************!*\
-  !*** ./src/components/navigation_widgets/RegisterVisitor.tsx ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const React = __webpack_require__(/*! react */ "react");
-const LinkWidgetTemplate_1 = __webpack_require__(/*! ../template/LinkWidgetTemplate */ "./src/components/template/LinkWidgetTemplate.tsx");
-function RegisterVisitor(props) {
-    return (React.createElement(React.Fragment, null,
-        React.createElement(LinkWidgetTemplate_1.default, { linkTitle: 'Register Visitor', link: "#", imageSrc: "https://static.iviva.com/images/Adani_UXP/reg_visit.svg" })));
-}
-exports.default = RegisterVisitor;
-
-
-/***/ }),
-
-/***/ "./src/components/navigation_widgets/ReportEmergency.tsx":
-/*!***************************************************************!*\
-  !*** ./src/components/navigation_widgets/ReportEmergency.tsx ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const React = __webpack_require__(/*! react */ "react");
-const LinkWidgetTemplate_1 = __webpack_require__(/*! ../template/LinkWidgetTemplate */ "./src/components/template/LinkWidgetTemplate.tsx");
-function ReportEmergency(props) {
-    return (React.createElement(React.Fragment, null,
-        React.createElement(LinkWidgetTemplate_1.default, { linkTitle: 'Report Emergency', link: "#", imageSrc: "https://static.iviva.com/images/Adani_UXP/emergency.svg", background: '#FF8D8D' })));
-}
-exports.default = ReportEmergency;
 
 
 /***/ }),
@@ -45249,20 +45144,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 __webpack_require__(/*! ./WidgetTemplate.scss */ "./src/components/template/WidgetTemplate.scss");
 function WidgetTemplate(props) {
-    var _a;
     return (React.createElement(React.Fragment, null,
-        React.createElement("div", { className: `widget-block flex-row-center` + props.classes },
-            ((_a = props.header) !== null && _a !== void 0 ? _a : props.header == false) ?
-                ""
-                :
-                    React.createElement("div", { className: "wb-header " },
-                        React.createElement("div", { className: "wbh-title" }, props.title),
-                        React.createElement("div", { className: "whb-toolbar" },
-                            props.toolbarContent !== null ?
-                                props.toolbarContent
-                                :
-                                    "",
-                            React.createElement("div", { className: "wb-settings" }))),
+        React.createElement("div", { className: `widget-block flex-row-center ${props.classes ? props.classes : ""} ` },
+            React.createElement("div", { className: "wb-header " },
+                React.createElement("div", { className: "wbh-title" }, props.title),
+                React.createElement("div", { className: "whb-toolbar" }, props.toolbarContent !== null ?
+                    props.toolbarContent
+                    :
+                        "")),
             React.createElement("div", { className: "wb-body" }, props.content),
             props.footer !== null ?
                 React.createElement("div", { className: "wb-footer" }, props.footer)
@@ -45323,37 +45212,42 @@ const FloorWiseConsumption_1 = __webpack_require__(/*! ./components/FloorWiseCon
 const MonthlyConsumption_1 = __webpack_require__(/*! ./components/MonthlyConsumption */ "./src/components/MonthlyConsumption.tsx");
 const MeetingRoom_1 = __webpack_require__(/*! ./components/navigation_widgets/MeetingRoom */ "./src/components/navigation_widgets/MeetingRoom.tsx");
 const CreateRequest_1 = __webpack_require__(/*! ./components/navigation_widgets/CreateRequest */ "./src/components/navigation_widgets/CreateRequest.tsx");
-const Facility_1 = __webpack_require__(/*! ./components/navigation_widgets/Facility */ "./src/components/navigation_widgets/Facility.tsx");
-const DeskBooking_1 = __webpack_require__(/*! ./components/navigation_widgets/DeskBooking */ "./src/components/navigation_widgets/DeskBooking.tsx");
-const QRBadge_1 = __webpack_require__(/*! ./components/navigation_widgets/QRBadge */ "./src/components/navigation_widgets/QRBadge.tsx");
-const ReportEmergency_1 = __webpack_require__(/*! ./components/navigation_widgets/ReportEmergency */ "./src/components/navigation_widgets/ReportEmergency.tsx");
-const RegisterVisitor_1 = __webpack_require__(/*! ./components/navigation_widgets/RegisterVisitor */ "./src/components/navigation_widgets/RegisterVisitor.tsx");
+const LinkWidgetTemplate_1 = __webpack_require__(/*! ./components/template/LinkWidgetTemplate */ "./src/components/template/LinkWidgetTemplate.tsx");
 window.registerWidget({ "name": "MeetingRoomBookingWidget", "widget": MeetingRoom_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
 window.registerWidget({ "name": "CreateRequestWidget", "widget": CreateRequest_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
-window.registerWidget({ "name": "FacilityBookingWidget", "widget": Facility_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
-window.registerWidget({ "name": "DeskBookingWidget", "widget": DeskBooking_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
-window.registerWidget({ "name": "QRWidget", "widget": QRBadge_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
-window.registerWidget({ "name": "ReportEmergencyWidget", "widget": ReportEmergency_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
-window.registerWidget({ "name": "RegisterVisitorsWidget", "widget": RegisterVisitor_1.default, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
+// window.registerWidget({ "name": "FacilityBookingWidget", "widget": FacilityBooking, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
+// window.registerWidget({ "name": "DeskBookingWidget", "widget": DeskBooking, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
+// window.registerWidget({ "name": "QRWidget", "widget": QRBadge, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
+// window.registerWidget({ "name": "ReportEmergencyWidget", "widget": ReportEmergency, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
+// window.registerWidget({ "name": "RegisterVisitorsWidget", "widget": RegisterVisitor, configs: { layout: { w: 2, h: 6, isResizable: false }, container: { background: "transparent" } } });
 window.registerWidget({ "name": "VisitorWidget", "widget": Visitor_1.default });
 window.registerWidget({ "name": "ParkingWidget", "widget": Parking_1.default });
 window.registerWidget({ "name": "PersonalConsumptionWidget", "widget": PersonalConsumption_1.default });
 window.registerWidget({ "name": "CarbonFootPrintWidget", "widget": CarbonFootPrint_1.default });
 window.registerWidget({ "name": "FloorWiseConsumptionWidget", "widget": FloorWiseConsumption_1.default });
 window.registerWidget({ "name": "MonthlyConsumptionWidget", "widget": MonthlyConsumption_1.default });
+window.registerWidget({
+    "name": "LinkWidgetTemplate",
+    "widget": LinkWidgetTemplate_1.default,
+    "configs": {
+        "props": [
+            { "name": "link", "label": "Link", "type": "string", "attr": { "required": true } },
+            { "name": "imageSrc", "type": "string", "label": "Image Src", "attr": { "required": true } },
+            { "name": "linkTitle", "type": "string", "label": "Title", "attr": { "required": true } },
+            { "name": "background", "type": "string", "label": "Background Color", "attr": { "required": false } }
+        ],
+        "container": {
+            "background": "transparent"
+        }
+    }
+});
 class Layout extends React.Component {
     componentWillMount() {
     }
     render() {
         return (React.createElement(React.Fragment, null,
             React.createElement("div", { className: "content" },
-                React.createElement(MeetingRoom_1.default, null),
-                React.createElement(CreateRequest_1.default, null),
-                React.createElement(Facility_1.default, null),
-                React.createElement(DeskBooking_1.default, null),
-                React.createElement(QRBadge_1.default, null),
-                React.createElement(ReportEmergency_1.default, null),
-                React.createElement(RegisterVisitor_1.default, null))));
+                React.createElement(LinkWidgetTemplate_1.default, { linkTitle: 'Meeting Room Booking', link: "#", imageSrc: "https://static.iviva.com/images/Adani_UXP/condeco.png" }))));
     }
 }
 // // render dom
